@@ -35,6 +35,7 @@ form.addEventListener('submit', function (e) {
         numTwo = Math.ceil(Math.random() * 9);
         result = numOne * numTwo;
         word.textContent = numOne + " X " + numTwo + " =";
+        input.value = '';
         input.focus();
     }
     else {
